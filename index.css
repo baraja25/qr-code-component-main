@@ -1,0 +1,42 @@
+img {
+	width: 100%;
+	height: 350px;
+	border-radius: 15px;
+	object-fit: cover;
+	right: 50%;
+}
+body {
+	background-color: hsl(212, 45%, 89%);
+	font-family: Outfit, sans-serif;
+	font-size: 15px;
+}
+.contenedor {
+	min-width: 375px;
+	max-width: 375px;
+	margin: 0 auto;
+	margin-top: 10vh;
+}
+.card {
+	background-color: white;
+	padding: 1.2em;
+	border-radius: 20px;
+	
+}
+
+.titulo {
+	color: hsl(218, 44%, 22%);
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin: 15px 20px;
+	text-align: center;
+}
+
+.descripcion {
+	color:hsl(220, 15%, 55%);
+	font-weight: 400;
+	text-align: center;
+	margin: 20px;
+	margin-left: 35px;
+	max-width: 32ch;
+
+}
